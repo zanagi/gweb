@@ -1,4 +1,4 @@
-#nav-all, #navi {
+#navi {
 	position: fixed;
 	width: inherit;
 	left: 0;
@@ -7,87 +7,4 @@
 	z-index: 5;
 	background-color: #e6e6e6;
 	font-family: 'Quicksand', sans-serif;
-}
-
-#navbar {
-	position: relative;
-	width: 100%;
-	min-height: 5em;
-	height: auto;
-	background-color: #e6e6e6;
-	margin: auto;
-	z-index: 5;
-	border-bottom: 1px solid black;
-}
-
-#navbar .navlink {
-	/* border-right: 0.15em solid #404040; */
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.3em;
-	color: black;
-	text-decoration: none;
-	text-align: center;
-}
-
-#navbar .navlink span {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-}
-
-#navbar .navlink:hover, #navbar .navlink.active {
-	font-weight: bold;
-}
-
-
-#subbar {
-	position: relative;
-	width: 100%;
-	min-height: 3.5em;
-	height: auto;
-	background-color: #e6e6e6;
-
-	margin: auto;
-	z-index: 5;
-}
-
-@media (max-width: 50em) {
-	#subbar {
-		display: none;
-	}
-	#search-area {
-		display: none;
-	}
-}
-
-#subbar .sub-row {
-	display: none;
-}
-
-#subbar .sub-row.active-sub {
-	display: inline;
-}
-
-#subbar .sub-row .navlink-sub {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1em;
-	color: black;
-	text-decoration: none;
-	text-align: center;
-}
-
-#subbar .sub-row .navlink-sub span {
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
-#subbar .sub-row a:hover,#subbar .sub-row a.active-sub-button {
-	font-weight: bold;
-}
-
-
-.subbar .sublink {
-	font-size: 1em;
-	color: black;
-	text-decoration: none;
-	text-align: center;
 }
