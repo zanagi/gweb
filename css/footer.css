@@ -43,10 +43,7 @@ body {
 }
 
 @media (max-width: 50em) {
-	#footer .image-row  {
-		display: none;
-	}
-	#footer #background {
+	#footer  {
 		display: none;
 	}
 }
