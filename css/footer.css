@@ -16,12 +16,6 @@ body {
    opacity: .0;
 }
 
-@media (max-width: 50em) {
-	#footer .image-row  {
-		display: none;
-	}
-}
-
 #footer img {
 	display: block;
 	height: 5.5em;
@@ -46,4 +40,13 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 0em;
+}
+
+@media (max-width: 50em) {
+	#footer .image-row  {
+		display: none;
+	}
+	#footer #background {
+		display: none;
+	}
 }
