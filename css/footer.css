@@ -12,14 +12,11 @@ body {
    left: 0;
    bottom: 0;
    width: 100%;
-   height: 12em;   
+   height: 10em;   
    background-color: #e6e6e6;
    opacity: .0;
 }
 
-#footer .image-row {
-	margin-top: 2.5em;
-}
 @media (max-width: 50em) {
 	#footer .image-row  {
 		display: none;
@@ -33,7 +30,7 @@ body {
 }
 
 #footer .row {
-	margin: 0.5em auto;
+	margin: 1em auto;
 }
 
 #footer .row p {
