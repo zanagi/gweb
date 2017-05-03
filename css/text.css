@@ -1,0 +1,14 @@
+@font-face {
+    font-family: pixelFont;
+    src: url(../fonts/Pixeled.tff);
+}
+
+#text-content {
+	
+}
+
+#text-content p {
+	font-family: pixelFont, serif;
+	color: white;
+	font-size: 3em;
+}
