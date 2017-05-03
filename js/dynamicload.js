@@ -1,18 +1,6 @@
 var debug = true;
 
 $(window).ready(function(){
-	var showSubBar = function(prefix) {
-		var subBarId = $('a[href="#' + prefix + '"]').attr("id") + "-sub";
-		$(".active-sub").toggleClass("active-sub");
-		$("#" + subBarId).toggleClass("active-sub");
-		
-		if($("#" + subBarId).children().length === 0) {
-			$("#subbar").hide();
-		} else {
-			$("#subbar").show();
-		}
-	}
-	
 	var setContentMargin = function() {
 		$("#content").css("top", $("#navi").height());
 	}
@@ -20,27 +8,17 @@ $(window).ready(function(){
 	var loadContent = function() {
 		var hash = window.location.hash.substring(1) || 'home';
 		var url = "content/" + hash + ".html";
-		var subbarurl = "subbar/" + hash + ".html";
 		var fadeTime = 500;
-		
-		$(".active-sub-button").toggleClass("active-sub-button"); // In each case, clear active state from subbar button
 		
 		if(hash.indexOf('-') === -1) {
 			$(".active").toggleClass("active");
 			$('a[href="#' + hash + '"]').toggleClass("active");
-			
-			// Update subbar
-			showSubBar(hash);
 		} else {
 			var p = hash.split('-')[0];
 			var jqn = $('a[href="#' + p + '"]');
 			if(!(jqn.hasClass("active"))) {
 				jqn.toggleClass("active");
-				showSubBar(p);
 			}
-			
-			// Subbar button clicked
-			$('a[href="#' + hash + '"]').toggleClass("active-sub-button");
 		}
 		
 		var ajaxLoad = function() {
