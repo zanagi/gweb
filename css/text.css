@@ -1,6 +1,6 @@
 @font-face {
-    font-family: pixelFont;
-    src: url(../fonts/Pixeled.tff);
+    font-family: "Pixeled";
+  	src: url(../fonts/Pixeled.ttf) format("truetype");
 }
 
 #text-content {
@@ -8,7 +8,7 @@
 }
 
 #text-content p {
-	font-family: pixelFont, serif;
+	font-family: "Pixeled", sans-serif;
 	color: white;
 	font-size: 3em;
 }
