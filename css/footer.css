@@ -24,25 +24,24 @@ body {
 
 #footer .row {
 	margin: 0 auto;
-	margin-top: 2.75em;
 }
 
-#footer .row p {
-	margin: 0 auto;
-	font-size: 0.9em;
-	color: #585858;
-}
-
-#footer #background {
+#footer #background img {
 	position: absolute;
-	width: 60em;
+	width: 70em;
 	height: 60em;
 	left: 0;
 	right: 0;
 	bottom: 0em;
 }
 
-@media (max-width: 50em) {
+#footer #footerTitle {
+	font-family: "Pixeled", sans-serif;
+	color: #ed2f2f;
+	font-size: 2em;
+}
+
+@media (max-width: 70em) {
 	#footer  {
 		display: none;
 	}
