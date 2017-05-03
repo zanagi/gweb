@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+	position: relative;
 	width: 100%;
 }
 
@@ -33,4 +34,5 @@ body {
 #content {
 	position: relative;
 	width: 100%;
+	height: auto;
 }
