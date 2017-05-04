@@ -1,9 +1,10 @@
-#text-content #games-container {
+#text-content .games-container {
 	background-color: black;
 	opacity: 0.8;
 	width: 80%;
 	margin: 25px auto;
 	padding-bottom: 25px;
+	min-width: 500px;
 }
 
 #text-content .game-title {
