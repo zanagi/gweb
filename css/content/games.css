@@ -11,3 +11,17 @@
 	padding: 25px 0;
 	text-align: center;
 }
+
+#text-content .games-container .video {
+	position: relative; 
+	width: 60%; 
+	min-width: 30em;
+	height: 25em; 
+	left: 20%;
+}
+
+@media (max-width: 50em) {
+	#text-content .games-container .video  {
+		display: none;
+	}
+}
