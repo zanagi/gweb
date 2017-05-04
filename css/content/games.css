@@ -1,0 +1,12 @@
+#text-content #games-container {
+	background-color: black;
+	opacity: 0.8;
+	width: 80%;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+#text-content .game-title {
+	padding-top: 25px;
+	text-align: center;
+}

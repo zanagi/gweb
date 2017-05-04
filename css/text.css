@@ -10,5 +10,13 @@
 #text-content p {
 	font-family: "Pixeled", sans-serif;
 	color: white;
+}
+
+#text-content p.small-text {
+	line-height: 2.5em;
+}
+
+#text-content p.large-text {
 	font-size: 2.5em;
+	line-height: 2em; 
 }
