@@ -20,7 +20,10 @@
 }
 
 @media (max-width: 50em) {
+	#text-content .games-container {
+		width: 96%;
+	}
 	#text-content .games-container .video  {
-		width: 100%;
+		display: none;
 	}
 }
