@@ -58,12 +58,17 @@
 	width: 280px;
 }
 
-
 @media (max-width: 50em) {
 	#text-content .games-container {
 		width: 96%;
 	}
 	#text-content .games-container .video  {
 		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	#text-content .games-link .games-block {
+		margin-left: 0px;
 	}
 }
